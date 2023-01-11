@@ -1261,3 +1261,26 @@ a {
     height: 180px;
   }
 }
+@media only screen and (max-width: 405px) {
+  .header__main-title span {
+    font-size: 70px;
+  }
+  .wrapper__content {
+    margin-left: 0;
+  }
+  .promise__right-title {
+    font-size: 22px;
+  }
+  .promise__right-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+  .logo__group-footer {
+    margin-left: 0px;
+  }
+  .merch__title {
+    font-size: 50px;
+  }
+}
